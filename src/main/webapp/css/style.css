@@ -1,0 +1,567 @@
+
+/* OVERALL ASPECT */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.myNavbar {
+  margin: 0px;
+}
+.centered {
+    text-align: center;
+}
+
+/* 태웅's 파트 */
+.textAng {
+  position: relative;
+  left: -50px;
+  top: -10px;
+  font-size: 60px;
+}
+.textAng:before,
+.textAng:after {
+  transform: rotate(-30deg);
+}
+.search-local {
+  height: 45px;
+  padding: 0px;
+  float: right;
+}
+.search-local input {
+  background-color: #f5f5f5;
+}
+.search-local button {
+  background-color: #f2f2f2;
+}
+
+.category {
+  margin-left: 10px;
+}
+.category-bottom {
+  margin-top: 10px;
+}
+
+.textLocal {
+  margin-bottom: 0px;
+  padding: 3px 0px 3px 0px;
+  float: left;
+}
+/* 태웅's 파트 끝 */
+
+
+/* Links */
+a {
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+	font-size: 14px;
+	background: #ffffff;
+}
+
+.navbar-fixed-top {
+border-width: 0 0 0px;
+border-bottom-width: 0px;
+}
+/* ================== BASIC CONFIGURATION ================== */
+
+.spacing i {
+	padding-left: 8px;
+	padding-right: 8px
+}
+/* margin top & Bottom */
+.mt {
+	margin-top: 50px;
+	/*margin-bottom: 50px;*/
+}
+
+/* Special Margin for Wrap sections */
+.mts {
+	margin-top: -20px;
+}
+
+
+/* service icons */
+.si {
+	visibility: hidden;
+}
+
+.si:hover {
+	background-color: #ffffff;
+}
+
+.si i {
+	font-size: 40px;
+	padding: 20px;
+}
+
+/* Padding top & bottom */
+.pt {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* Description Styling / Used in portfolio & Blog images footnotes */
+.desc {
+  margin-bottom: 20px;
+}
+.desc p {
+	font-family: 'Ruda', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.desc p > i {
+	font-size: 16px;
+	color: #979797;
+}
+
+.desc p > i:hover {
+	font-size: 16px;
+	color: #e74c3c;
+	cursor: pointer;
+}
+
+.desc p.lead {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+.desc p.time {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0px;
+	color: #979797;
+	text-align: right;
+}
+
+.desc p.time > i {
+	font-size: 12px;
+}
+
+
+/* Dashed Separator */
+
+hr-d {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+p.capitalize {
+	display:block;
+	text-align: left;
+}
+
+p.capitalize:first-letter {
+	text-transform:capitalize;
+	font-size: 30px;
+	font-family: 'Ruda', sans-serif;
+	font-weight: 400;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:5px;
+}
+
+
+/* Button Call To Action */
+.btn-cta {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-family: 'Ruda', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active,
+.btn-cta.active,
+.open .dropdown-toggle.btn-cta {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
+}
+
+/* ================== MAIN WRAP SECTIONS ================== */
+
+#headerwrap {
+	background: url(../img/bg01.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top: 50px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 60px;
+	color: white;
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	visibility: hidden;
+}
+
+#headerwrap h2 {
+	color: white;
+	visibility: hidden;
+
+}
+
+#headerwrap .img-responsive {
+	margin: 0 auto;
+}
+
+/* Footer Wrap */
+
+#f {
+	background-color: #1b1b1b;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#f p {
+	color: white;
+}
+
+#f h4 {
+	color: white;
+}
+
+/* Color Wraps */
+#white {
+	margin-top: 0px;
+	background-color: #ffffff;
+	min-height: 300px;
+	width: 100%;
+}
+
+#grey {
+	margin-top: 0px;
+	background-color: #f7f7f7;
+	min-height: 300px;
+	width: 100%;
+}
+
+#black {
+	margin-top: 0px;
+	background-color: #2f2f2f;
+	min-height: 300px;
+	width: 100%;
+}
+
+#black h3 {
+	color: white;
+}
+
+#black h4 {
+	color: white;
+	text-transform: uppercase
+}
+
+#black p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+#black i {
+	font-size: 35px;
+}
+
+#black h1 {
+	color: white;
+	font-size: 70px;
+}
+
+/* ================== CALL TO ACTION WRAP SECTIONS & HELPERS ================== */
+#cta01 {
+	background: url(../img/cta/cta01.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 350px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cta01 h1 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+	font-size: 60px;
+}
+
+#cta01 h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+#cta01 i {
+	color: white;
+	font-size: 45px;
+}
+
+
+#cta02 {
+	background: url(../img/cta/cta02.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 350px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cta02 h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+
+#cta03 {
+	background: url(../img/cta/cta01.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:50px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 450px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#cta03 h2 {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+#cta03 i {
+	color: white;
+	font-size: 45px;
+}
+
+#cta03 p {
+	color: white;
+	font-size: 16px;
+}
+
+#cta-bar {
+	background: #2f2f2f;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+    -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+#cta-bar:before,
+#cta-bar:after {
+    -webkit-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -o-transition: color 0.2s ease-in, background 0.2s ease-in;
+    transition: color 0.2s ease-in, background 0.2s ease-in;
+
+    cursor: pointer;
+}
+
+#cta-bar h4 {
+	color: white;
+	font-weight: 400;
+}
+
+
+/* ================== TWITTER FEED CONFIGURATION ================== */
+#f ul {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+
+#f ul li {
+  list-style:none;
+  overflow:hidden;
+}
+
+#f ul li:before {
+	content: "\f099";
+	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: inherit;
+	font-size: 16px;
+	height: auto;
+	margin-top: 2px;
+	margin-right: 8px;
+	color: white;
+	float: left;
+}
+
+#f .tweet {
+	float: right;
+	width: 85%;
+}
+
+
+
+@media (max-width: 600px) {
+
+#headerwrap h1 {
+	font-size: 35px;
+}
+
+#cta03 {
+	background: #2d2d2d;
+	}
+
+#wv {
+	height: 350px;
+}
+
+}
+
+@media (max-width: 900px) {
+#cta03 {
+	background: #2d2d2d;
+	}
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
