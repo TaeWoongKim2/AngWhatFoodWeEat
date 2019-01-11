@@ -54,3 +54,9 @@ buildNumber.properties
 *.xhtml
 
 # End of https://www.gitignore.io/api/web,java,maven,java-web
+*.classpath
+*.project
+*.springBeans
+*.prefs
+*.component
+.settings/
