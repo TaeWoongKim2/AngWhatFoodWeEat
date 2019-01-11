@@ -26,13 +26,13 @@ jQuery(document).ready(function( $ ) {
         min: 0,
         max: 20000,
         values: [ 0, 20000 ],
-        step: 2
+        step: 100
 
     }).slider("pips", {
         first: "label",
         last: "label",
         rest: "label",
-        step: 1000,
+        step: 20,
         labels: false,
         prefix: "",
         suffix: ""
@@ -47,8 +47,9 @@ jQuery(document).ready(function( $ ) {
 
     // 카테고리 슬라이더
     $('.responsive').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 11,
+        slidesToScroll: 11,
+        variableWidth: true,
         autoplay: true,
         autoplaySpeed: 5000,
     });
