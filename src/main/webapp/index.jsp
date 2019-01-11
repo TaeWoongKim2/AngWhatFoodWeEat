@@ -160,14 +160,13 @@
           <div class="row">
             <!-- Slider -->
             <div class="responsive">
-              <div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
-    					<div><img src="http://placehold.it/200x150" alt="" /></div>
+              	<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
+				<div><img src="https://pngimage.net/wp-content/uploads/2018/06/no-image-png-2.png" alt="" /></div>
             </div>
           </div>
         </div>
