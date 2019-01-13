@@ -18,11 +18,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
-
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
+}
+
+.hd_logo {
+	margin: 10px 0px;
 }
 .myNavbar {
   margin: 0px;
@@ -100,13 +103,17 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
+hr {
+	display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+
+img {
+	border:0
 }
 
 .navbar {

@@ -25,8 +25,8 @@
   <link href="${pageContext.request.contextPath}/lib/hover-pack/hover-pack.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="${pageContext.request.contextPath}/css/style.css?ver=2" rel="stylesheet">
-  <link href="${pageContext.request.contextPath}/css/header.css?ver=2" rel="stylesheet">
+  <link href="${pageContext.request.contextPath}/css/style.css?ver=1" rel="stylesheet">
+  <link href="${pageContext.request.contextPath}/css/header.css?ver=1" rel="stylesheet">
   <link href="${pageContext.request.contextPath}/css/colors/color-74c9be.css" rel="stylesheet">
 
   <!-- Price Slider -->
@@ -35,7 +35,7 @@
   <link href="${pageContext.request.contextPath}/css/slider/jquery-ui-slider-pips.css" rel="stylesheet">
 
   <!-- Category Slick CSS -->
-  <link href="${pageContext.request.contextPath}/css/slider/category_slider.css" rel="stylesheet">
+  <link href="${pageContext.request.contextPath}/css/slider/category_slider.css?ver=1" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   
   <!-- JavaScript Libraries -->
@@ -76,9 +76,9 @@
        <div class="container">
            <div class="row">
                <div class="col-md-12">
-                   <div class="brand"> <a href="#">
-                       <h1>Logo</h1>
-                       </a> </div>
+                   <div class="brand"> 
+                       <a href="#"><h1 class="hd_logo">Logo</h1></a>
+                   </div>
                    <nav  id="nav-wrap" class="main-nav"> <a id="toggle-btn" href="#"><i class="fa fa-bars"></i> </a>
                    <ul class="sf-menu">
                        <li> <a href="#">About Us </a></li>
