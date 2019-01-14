@@ -37,7 +37,7 @@
   <link href="${pageContext.request.contextPath}/css/slider/jquery-ui-slider-pips.css" rel="stylesheet">
 
   <!-- Category Slick CSS -->
-  <link href="${pageContext.request.contextPath}/css/slider/category_slider.css?ver=1" rel="stylesheet">
+  <link href="${pageContext.request.contextPath}/css/slider/category_slider.css?ver=2" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   
   <!-- JavaScript Libraries -->

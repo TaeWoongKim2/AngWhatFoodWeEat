@@ -4,13 +4,14 @@
 	<definition name="common" template="/WEB-INF/tiles/layout/demo_template.jsp">
 		<put-attribute name="title" value="앙!뭐먹띠?!" />
 		<put-attribute name="header" value="/WEB-INF/tiles/component/header.jsp" />
+		<put-attribute name="content" value=""/>
 		<put-attribute name="footer" value="/WEB-INF/tiles/component/footer.jsp" />
 	</definition>
-	<definition name="our/*" extends="common">
+	<definition name="/*" extends="common">
 		<put-attribute name="content" value="/WEB-INF/jsp/{1}.jsp" />
 	</definition>
-	<definition name="our/*/*" extends="common">
+	<!-- <definition name="/*/*" extends="common">
 		<put-attribute name="content" value="/WEB-INF/jsp/{1}/{2}.jsp" />
-	</definition>
+	</definition> -->
 
 </tiles-definitions>

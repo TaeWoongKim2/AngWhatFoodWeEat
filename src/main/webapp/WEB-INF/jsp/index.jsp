@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
-   
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
-  
+<spring:url value="/resources/img" var="imgURL" />
+
 <div id="headerwrap">
   	<div class="container">
     	<div class="row centered">
@@ -89,7 +90,7 @@
 
   <div class="row mt">
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port04.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 1</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -102,7 +103,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port05.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 2</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -115,7 +116,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port06.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 3</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -128,7 +129,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port06.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 3</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -141,7 +142,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port06.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 3</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -154,7 +155,7 @@
     </div>
 
     <div class="col-lg-4 col-md-4 col-xs-12 desc">
-      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="img/portfolio/port06.jpg" alt="" />
+      <a class="b-link-fade b-animate-go" href="#"><img width="350" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
 			<div class="b-wrapper">
 			  	<h4 class="b-from-left b-animate b-delay03">Post 3</h4>
 			  	<p class="b-from-right b-animate b-delay03">Read More.</p>
@@ -348,13 +349,4 @@
     </div>
   </div>
 </div>
-
-<div id="cta-bar">
-  <div class="container">
-    <div class="row centered">
-      <a href="#"><h4>Are You Ready For The Next Step?</h4></a>
-    </div>
-  </div>
-</div>
-<!-- /cta-bar -->
 
