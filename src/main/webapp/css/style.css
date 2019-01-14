@@ -259,7 +259,8 @@ p.capitalize:first-letter {
 /* ================== MAIN WRAP SECTIONS ================== */
 
 #headerwrap {
-	background: url(../img/bg01.jpg) no-repeat center top;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn4-bBohBzyp7dyYjHTGSZsvU4FzaXpgqyxSU0bFHeKHGIhtJ0rw") no-repeat center top;
+	background-size: contain;
 	margin-top: 0px;
 	padding-top: 50px;
 	background-attachment: relative;
