@@ -1,4 +1,4 @@
-package pangyo.common.common;
+package com.pangyofood.common.common;
 
 import java.util.HashMap;
 import java.util.Map;
